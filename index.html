@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            margin: 10%;
+        }
+        button{
+            background-color: rgb(24, 197, 24);
+            padding: 10px 20px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: green; font-size: 30px;"> Calculate age from your date of birth</h2>
+    Enter your date of birth : <input id="dob" type="date"><br><br>
+    <span id="message" ></span>
+    
+    <h3><button id="convert" onclick="ageCalculator()">Calculate</button></h3>
+    <h3 id="result"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
